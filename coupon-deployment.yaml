@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: coupon-app
-        image: kabhad82/coupon-services:coupon
+        image: ayobnas/coupon-services:coupon:v1.2
         ports:
         - containerPort: 8080
